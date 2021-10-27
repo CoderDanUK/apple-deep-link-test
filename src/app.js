@@ -3,7 +3,7 @@ const path = require('path')
 const fs = require('fs')
 
 const app = express()
-const port = 80
+const PORT = process.env.PORT || 5000;
 
 app.set('view engine', 'pug')
 app.set('views', path.join(__dirname, 'views'))
@@ -36,6 +36,6 @@ app.get('/your-account/', (req, res) => {
     res.render('index', {openingApp: true})
 })
 
-app.listen(port, () => {
-    console.log(`Example app listening at https://localhost:${port}`)
+app.listen(PORT, () => {
+    console.log(`Example app listening at https://localhost:${PORT}`)
 })
