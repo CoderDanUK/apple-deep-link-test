@@ -3,7 +3,7 @@ const path = require('path')
 const fs = require('fs')
 
 const app = express()
-const port = 443
+const port = 80
 
 app.set('view engine', 'pug')
 app.set('views', path.join(__dirname, 'views'))
