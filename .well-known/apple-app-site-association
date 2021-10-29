@@ -1,22 +1,16 @@
 {
-    "applinks": {
-        "details": [
-             {
-               "appIDs": [ "X8Y6FR2LN7.com.sse.retail.mysse" ],
-               "components": [
-                 {
-                    "/": "/your-account/*",
-                    "?": [ { "utm_source": "eCommerce" }, { "utm_medium": "Email" }, { "utm_campaign": "online_statement" }, { "utm_content": "view-your-bill" } ],
-                    "comment": "Matches bill email urls"
-                 },
-                 {
-                    "/": "/your-account/*",
-                    "?": [ { "utm_source": "eCommerce" }, { "utm_medium": "Email" }, { "utm_campaign": "iRead" } ],
-                    "comment": "Matches meter reading email urls"
-                 }
-               ]
-             }
-         ]
-     }
-  }
-  
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "ABCDE12345.com.example.app", "ABCDE12345.com.example.app2" ],
+             "components": [
+               {
+                  "/": "/help/*",
+                  "?": { "articleNumber": "????" },
+                  "comment": "Matches any URL whose path starts with /help/ and which has a query item with name 'articleNumber' and a value of exactly 4 characters"
+               }
+             ]
+           }
+       ]
+   }
+}
