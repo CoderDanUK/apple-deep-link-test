@@ -4,10 +4,11 @@
              {
                "appIDs": [ "X8Y6FR2LN7.com.sse.retail.mysse" ],
                "components": [
-                 {
+		{
                   "/": "/your-account/*",
-                  "comment": "Matches any URL whose path starts with /buy/"
-               	}
+                  "?": { "utm_source": "eCommerce" },
+                  "comment": "Matches any URL whose path starts with /help/ and which has a query item with name 'articleNumber' and a value of exactly 4 characters"
+                 }
                ]
              }
          ]
