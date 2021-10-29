@@ -1,16 +1,15 @@
 {
-  "applinks": {
-      "details": [
-           {
-             "appIDs": [ "ABCDE12345.com.example.app", "ABCDE12345.com.example.app2" ],
-             "components": [
-               {
-                  "/": "/help/*",
-                  "?": { "articleNumber": "????" },
-                  "comment": "Matches any URL whose path starts with /help/ and which has a query item with name 'articleNumber' and a value of exactly 4 characters"
-               }
-             ]
-           }
-       ]
-   }
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "9JA89QQLNQ.com.apple.wwdc",
+                "paths": [ "/wwdc/news/", "/videos/wwdc/2015/*"]
+            },
+            {
+                "appID": "ABCD1234.com.apple.wwdc",
+                "paths": [ "*" ]
+            }
+        ]
+    }
 }
