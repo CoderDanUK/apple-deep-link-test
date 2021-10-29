@@ -5,15 +5,9 @@
                "appIDs": [ "X8Y6FR2LN7.com.sse.retail.mysse" ],
                "components": [
                  {
-                    "/": "/your-account/*",
-                    "?": [ { "utm_source": "eCommerce" }, { "utm_medium": "Email" }, { "utm_campaign": "online_statement" }, { "utm_content": "view-your-bill" } ],
-                    "comment": "Matches bill email urls"
-                 },
-                 {
-                    "/": "/your-account/*",
-                    "?": [ { "utm_source": "eCommerce" }, { "utm_medium": "Email" }, { "utm_campaign": "iRead" } ],
-                    "comment": "Matches meter reading email urls"
-                 }
+                  "/": "/your-account/*",
+                  "comment": "Matches any URL whose path starts with /buy/"
+               	}
                ]
              }
          ]
