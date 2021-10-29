@@ -1,15 +1,21 @@
 {
     "applinks": {
-        "apps": [],
         "details": [
-            {
-                "appID": "9JA89QQLNQ.com.apple.wwdc",
-                "paths": [ "/wwdc/news/", "/videos/wwdc/2015/*"]
-            },
-            {
-                "appID": "ABCD1234.com.apple.wwdc",
-                "paths": [ "*" ]
-            }
-        ]
-    }
-}
+             {
+               "appIDs": [ "X8Y6FR2LN7.com.sse.retail.mysse" ],
+               "components": [
+                 {
+                    "/": "/your-account/*",
+                    "?": [ { "utm_source": "eCommerce" }, { "utm_medium": "Email" }, { "utm_campaign": "online_statement" }, { "utm_content": "view-your-bill" } ],
+                    "comment": "Matches bill email urls"
+                 },
+                 {
+                    "/": "/your-account/*",
+                    "?": [ { "utm_source": "eCommerce" }, { "utm_medium": "Email" }, { "utm_campaign": "iRead" } ],
+                    "comment": "Matches meter reading email urls"
+                 }
+               ]
+             }
+         ]
+     }
+  }
