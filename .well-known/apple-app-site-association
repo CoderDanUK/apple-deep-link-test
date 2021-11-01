@@ -7,11 +7,11 @@
                "components": [
                   {
                     "?": { "utm_medium": "Email" },
-                    "/": "/your-account/*",
+                    "/": "/your-account/*"
                  },
                  {
                     "?": { "utm_campaign": "iRead" },
-                    "/": "/your-account/*",
+                    "/": "/your-account/*"
                  }
                ]
              }
