@@ -6,11 +6,11 @@
                "appIDs": [ "X8Y6FR2LN7.com.sse.retail.mysse" ],
                "components": [
                   {
-                    "?": { "utm_medium": "Email" },
+                    "?": { "utm_medium": "?*" },
                     "/": "/your-account/*"
                  },
                  {
-                    "?": { "utm_campaign": "iRead" },
+                    "?": { "utm_campaign": "?*" },
                     "/": "/your-account/*"
                  }
                ]
