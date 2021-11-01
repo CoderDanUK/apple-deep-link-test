@@ -7,15 +7,11 @@
                "components": [
                  {
                     "/": "/your-account/*",
-                    "?": [ { "utm_source": "?*" } ],
+                    "?": { "utm_source": "????" },
                     "comment": "Matches meter reading email urls"
                  }
                ]
-             },
-             {
-	        "appID": "X8Y6FR2LN7.com.sse.retail.mysse",
-	        "paths": [ "/your-account/*" ]
-             },
+             }
          ]
      }
   }
