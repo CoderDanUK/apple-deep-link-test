@@ -6,12 +6,7 @@
                "components": [
                  {
                     "/": "/your-account/*",
-                    "?": [ { "utm_source": "ecommerce" }, { "utm_medium": "Email" }, { "utm_campaign": "online_statement" }, { "utm_content": "view-your-bill" }, { "WT.mc_id": "email|ecommerce|online-statement-a0001|view-your-bill" } ],
-                    "comment": "Matches bill email urls"
-                 },
-                 {
-                    "/": "/your-account/*",
-                    "?": [ { "utm_source": "eCommerce" }, { "utm_medium": "Email" }, { "utm_campaign": "iRead" } ],
+                    "?": [ { "utm_source": "?????????" } ],
                     "comment": "Matches meter reading email urls"
                  }
                ]
