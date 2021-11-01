@@ -3,6 +3,7 @@
 		"apps": [],
 		"details": [{
 			"appIDs": ["X8Y6FR2LN7.com.sse.retail.mysse"],
+                         "paths": [ "/your-account/login*”],
 			"components": [{
 					"?": {
 						"utm_source": "ecommerce",
@@ -21,10 +22,7 @@
 					"/": "/your-account/login*"
 				}
 			]
-		},
-	    {
-                "appID": "X8Y6FR2LN7.com.sse.retail.mysse",
-                "paths": [ "/your-account/login*"]
-            }]
+		}
+	    ]
 	}
 }
