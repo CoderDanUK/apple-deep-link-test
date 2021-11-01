@@ -5,10 +5,13 @@
              {
                "appIDs": [ "X8Y6FR2LN7.com.sse.retail.mysse" ],
                "components": [
-                 {
-	           "?": { "utm_source": "?*" },
+                  {
+                    "?": [ { "utm_source": "ecommerce" }, { "utm_medium": "Email" }, { "utm_campaign": "online_statement" }, { "utm_content": "view-your-bill" }, { "WT.mc_id": "email|ecommerce|online-statement-a0001|view-your-bill" }, { "WT.tsrc": "service email" } ],
                     "/": "/your-account/*",
-                    
+                 },
+                 {
+                    "?": [ { "utm_source": "eCommerce" }, { "utm_medium": "Email" }, { "utm_campaign": "iRead" } ],
+                    "/": "/your-account/*",
                  }
                ]
              }
