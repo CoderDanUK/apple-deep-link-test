@@ -3,7 +3,7 @@
         "apps": [],
         "details": [
             {
-                "appID": "X8Y6FR2LN7.com.sse.retail.mysse",
+                "appID": "893B6Q7U63.com.sse.retail.mysse",
                 "paths": [ "/your-account/login*"],
 	        "components": [{
 			"?": {
