@@ -4,7 +4,7 @@
         "details": [
             {
                 "appID": "893B6Q7U63.com.sse.retail.mysse",
-                "paths": [ "/login*"],
+                "paths": [ "/toast*"],
 	        "components": 
 			[{ "?": { "utm_source": "ecommerce",
 			          "utm_medium": "Email",
