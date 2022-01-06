@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.sse.retail.mysse",
+    "package_name": "com.sse.retail.mysses",
     "sha256_cert_fingerprints":
     ["79:C0:C6:AC:AC:71:E2:6E:92:31:C8:B7:F9:FE:7F:40:1A:25:C0:B5:43:1A:0F:25:E3:32:7E:C5:78:91:FE:BB"]
   }
